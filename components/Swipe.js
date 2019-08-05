@@ -87,7 +87,7 @@ export default class Swipeable extends Component {
           </PanGestureLeft>
         </View>
 
-        <View style={{flex:0.2}}>
+        <View style={{flex:1}}>
           <PanGestureRight 
             title = 'angry' 
             navigation = {this.props.navigation} 
